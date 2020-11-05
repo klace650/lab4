@@ -1,0 +1,12 @@
+/* Mobile */
+@media only screen and (min-width: 480px){
+    header {
+        background-color:#f6aa1c;
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 720px){
+    header {
+        background-color:#5F00BA;
+    }
+};
