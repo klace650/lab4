@@ -1,27 +1,30 @@
 /* MOBILE */
-header{
-    background-color: #020202;
-}
-.full {
-    background-color: #0F1A08;
-}
-aside {
-    background-color: #1B320E;
-}
-.sec {
-    background-color: #274A14;
-}
-.art {
-    background-color: #33621A;
-}
-.sec > section{
-    background-color: #3F7A20;
-}
-.art > article{
-    background-color: #4B9226;
-}
-footer{
-    background-color: #57AA2C;
+@media only screen and (min-width: 0px){
+
+    header{
+        background-color: #020202;
+    }
+    .full {
+        background-color: #0F1A08;
+    }
+    aside {
+        background-color: #1B320E;
+    }
+    .sec {
+        background-color: #274A14;
+    }
+    .art {
+        background-color: #33621A;
+    }
+    .sec > section{
+        background-color: #3F7A20;
+    }
+    .art > article{
+        background-color: #4B9226;
+    }
+    footer{
+        background-color: #57AA2C;
+    }
 };
 /* TABLET */
 @media only screen and (min-width: 768px){
@@ -57,7 +60,7 @@ footer{
 @media only screen and (min-width: 960px){
     header{
         background-color: #363537;
-    }
+    } */
     .full {
         background-color: #218251;
     }
