@@ -1,12 +1,82 @@
-/* Mobile */
-@media only screen and (min-width: 480px){
-    header {
-        background-color:#f6aa1c;
-    }
+/* MOBILE */
+header{
+    background-color: #020202;
 }
-/* Desktop */
-@media only screen and (min-width: 720px){
-    header {
-        background-color:#5F00BA;
+.full {
+    background-color: #0F1A08;
+}
+aside {
+    background-color: #1B320E;
+}
+.sec {
+    background-color: #274A14;
+}
+.art {
+    background-color: #33621A;
+}
+.sec > section{
+    background-color: #3F7A20;
+}
+.art > article{
+    background-color: #4B9226;
+}
+footer{
+    background-color: #57AA2C;
+};
+/* TABLET */
+@media only screen and (min-width: 768px){
+    header{
+        background-color: #363537;
+
+    }
+    .full {
+        background-color: #218251;
+
+    }
+    aside {
+        background-color: #0CCE6B;
+
+    }
+    .sec {
+        background-color: #74DE4E;
+    }
+    .art {
+        background-color: #DCED31;
+    }
+    .sec > section{
+        background-color: #E1BD3B;
+    }
+    .art > article{
+        background-color: #E68D44;
+    }
+    footer{
+        background-color: #EF2D56;
+    }
+};
+/* DESKTOP */
+@media only screen and (min-width: 960px){
+    header{
+        background-color: #363537;
+    }
+    .full {
+        background-color: #218251;
+    }
+    aside {
+        background-color: #0CCE6B;
+    }
+    .sec {
+        background-color: #74DE4E;
+    }
+    .art {
+        background-color: #DCED31;
+    }
+    .sec > section{
+        background-color: #E1BD3B;
+    }
+    .art > article{
+        background-color: #E68D44;
+    }
+    footer{
+        background-color: #EF2D56;
     }
 };

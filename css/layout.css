@@ -1,3 +1,4 @@
+/* MOBILE */
 .flex-container{
     display: flex;
     flex-wrap: wrap;
@@ -31,4 +32,36 @@ aside {
 footer{
     line-height: 2em;
     width: 100%;
+}
+/* TABLET */
+@media only screen and (min-width: 768px){
+    body {
+        width: 19.2em;
+        margin: auto;
+    }
+}
+/* DESKTOP */
+@media only screen and (min-width: 960px){
+    body{
+        width: 24em;
+        margin: auto;
+    }
+    aside{
+        width: 5em;
+        line-height: 15em;
+    }
+    .sec , .art{
+        flex: 1;
+        flex-direction: row;
+    }
+    .sec > section{
+        line-height: 5em;
+    }
+    .art > article {
+        line-height: 6.25em;
+        width: 25%;   
+    }
+    footer{
+        line-height: 3.75em;
+    }
 }
